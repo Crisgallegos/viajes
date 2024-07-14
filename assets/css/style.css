@@ -30,3 +30,6 @@ background-color: rgb(4, 65, 94);
     max-width: 400px;
     width: auto;
 }
+.bg-footer{
+    background-color: #428998;
+}

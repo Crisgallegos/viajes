@@ -1,0 +1,32 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.bg-dark{
+    background-color: #000000;
+}
+li{
+    margin-right: 20px;
+}
+
+/* El siguiente estilo cambia al background del navbar al momento de hacer scroll  */
+.navbar-scrolled {
+    background-color: #428998 !important;
+    transition: background-color 0.3s ease;
+}
+.hover-body{
+    background-color: #428998;
+}
+.hover-body:hover{
+background-color: rgb(4, 65, 94);
+}
+.ancho-alert{
+    background-color: #9b0008;
+    color: #ffffff;
+    display: inline-block;
+    max-width: 400px;
+    width: auto;
+}

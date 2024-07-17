@@ -1,5 +1,7 @@
   
-  
+   const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+   const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+   
   // esta función realiza el cambio de color del navbar al momento de realizar scroll
   document.addEventListener("DOMContentLoaded", function () {
     var navbar = document.querySelector(".navbar");
